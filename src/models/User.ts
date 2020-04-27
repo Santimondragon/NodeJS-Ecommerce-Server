@@ -3,6 +3,7 @@ import mongoose, { Document } from 'mongoose';
 const Schema = mongoose.Schema;
 
 export type UserDocument = Document & {
+  id?: string;
   username: string;
   password: string;
   role: string;

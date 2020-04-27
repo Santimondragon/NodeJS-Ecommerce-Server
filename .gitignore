@@ -14,3 +14,4 @@ yarn-error.log*
 .npm/
 yarn.lock
 DB - *
+custom_types.txt

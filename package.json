@@ -8,13 +8,14 @@
     "start": "node dist/app.js",
     "server": "nodemon src/app.ts",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm  run src/app.ts\" \"npm run client\"",
+    "dev": "concurrently \"yarn client\" \"yarn server\"",
     "build": "tsc"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "concurrently": "^5.2.0",
     "config": "^3.3.1",
     "express": "^4.17.1",
     "express-validator": "^6.4.0",

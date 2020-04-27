@@ -135,7 +135,7 @@ router.put(
       const item = await Item.findOne({ _id: req.params.item_id });
 
       const newComment = {
-        user: req.user!.username,
+        user: req.user!.username!,
         rating: req.body.rating,
         text: <string>req.body.text,
         date: Date.now(),
