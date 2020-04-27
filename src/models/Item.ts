@@ -3,33 +3,24 @@ const Schema = mongoose.Schema;
 
 export type ItemDocument = Document & {
   name: string;
-  image: string;
   category: string[];
-  material: string[];
   price: number;
-
-  rating: {
-    user: string;
-    rating: number;
-  }[];
 
   comments: {
     id?: string;
-    user: string;
-    name: string;
-    text: string;
     date: number;
-    likes?: { user?: string }[];
-    dislikes?: { user?: string }[];
+    user: string;
+    rating: string;
+    text: string;
   }[];
 };
 
 const ItemSchema = new Schema({
-  name: {
+  ref: {
     type: String,
     require: true,
   },
-  image: {
+  name: {
     type: String,
     require: true,
   },
@@ -37,59 +28,28 @@ const ItemSchema = new Schema({
     type: [String],
     require: true,
   },
-  material: {
-    type: [String],
-    require: true,
-  },
   price: {
     type: Number,
     require: true,
   },
-  rating: [
+  comments: [
     {
+      date: {
+        type: Date,
+        default: Date.now,
+      },
       user: {
-        type: Schema.Types.ObjectId,
+        type: String,
         ref: 'user',
       },
       rating: {
         type: Number,
         require: true,
       },
-    },
-  ],
-  comments: [
-    {
-      user: {
-        type: Schema.Types.ObjectId,
-        ref: 'user',
-      },
-      name: {
-        type: String,
-      },
       text: {
         type: String,
         require: true,
       },
-      date: {
-        type: Date,
-        default: Date.now,
-      },
-      likes: [
-        {
-          user: {
-            type: Schema.Types.ObjectId,
-            ref: 'user',
-          },
-        },
-      ],
-      dislikes: [
-        {
-          user: {
-            type: Schema.Types.ObjectId,
-            ref: 'user',
-          },
-        },
-      ],
     },
   ],
 });

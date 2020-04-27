@@ -76,7 +76,9 @@ router.post(
       await user.save();
 
       // Return jsonwebtoken
-      const payload = { user: { id: user.id, role: user.role } };
+      const payload = {
+        user: { id: user.id, username: user.username, role: user.role },
+      };
       jwt.sign(payload, jwtSecret, { expiresIn: 360000 }, (error, token) => {
         if (error) throw error;
         res.json({ token });

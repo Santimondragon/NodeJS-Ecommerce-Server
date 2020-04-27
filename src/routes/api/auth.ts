@@ -62,7 +62,9 @@ router.post(
       }
 
       // Return jsonwebtoken
-      const payload = { user: { id: user.id } };
+      const payload = {
+        user: { id: user.id, username: user.username, role: user.role },
+      };
 
       jwt.sign(payload, jwtSecret, { expiresIn: 36000 }, (error, token) => {
         if (error) throw error;
