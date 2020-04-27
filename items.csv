@@ -1,0 +1,48 @@
+id,name,category,price,image,comments__id,comments__user,comments__rating,comments__text
+1,Collar de Acrilico con Cadena de Plata,"Collares, Acrílico, Plata",32,,1,santiagomondram,5,"Muy buena calidad, me gustó mucho la presentación. Perfecto para un regalo."
+,,,,,2,auramariaarias,4.5,"Hermoso, se lo regalé a mi mamá y le gustó mucho. No les pongo 5 porque se demoró mucho en llegar :("
+,,,,,3,mcamilamorales,3.5,"Me gustó, pero depués de un tiempo el acrílico empezó a desgastarse en la zona donde estaba la cadena."
+,,,,,4,shopper2,5,
+,,,,,5,shopper3,4,
+2,Collar de Acrílico con Cuero,"Collares, Acrílico, Madera",28,,1,santiagomondram,4,Me gusta la calidad del trabajo. No se si me gusta mucho la combinación entre plata y madera.
+,,,,,3,shopper1,5,Genial!
+,,,,,4,shopper4,2,
+,,,,,5,shopper3,4,
+3,Collar de Madera con Cadena de Plata,"Collares, Madera, Plata",28,,1,santiagomondram,3,Buena calidad. No me gusta la combinación de los materiales.
+,,,,,3,auramariaarias,4,Meh.
+,,,,,4,shopper1,4,Bonito.
+,,,,,5,shopper2,4,
+,,,,,6,shopper3,2,
+,,,,,7,shopper4,4,
+4,Collar de Madera con Cuero,"Collares, Madera, Cuero",26,,2,auramariaarias,4.5,"Muy hermoso, me gusta que se ve rustico pero estilizado. Podrían buscar un tipo de madera más linda para que se le vea más calidad."
+,,,,,3,shopper1,5,Super bonito!
+,,,,,4,shopper2,5,
+,,,,,5,shopper3,4,
+5,Pulsera de Acrilico con Cadena de Plata,"Pulseras, Acrílico, Plata",24,,1,santiagomondram,5,"Muy buena calidad, me gustó mucho la presentación. Perfecto para un regalo."
+,,,,,2,auramariaarias,4.5,"Hermoso, se lo regalé a mi mamá y le gustó mucho. No les pongo 5 porque se demoró mucho en llegar :("
+,,,,,3,mcamilamorales,3.5,"Me gustó, pero depués de un tiempo el acrílico empezó a desgastarse en la zona donde estaba la cadena."
+,,,,,4,shopper2,5,
+,,,,,5,shopper3,4,
+6,Pulsera de Acrílico con Cuero,"Pulseras, Acrílico, Madera",20,,1,santiagomondram,4,Me gusta la calidad del trabajo. No se si me gusta mucho la combinación entre plata y madera.
+,,,,,3,shopper1,5,Genial!
+,,,,,4,shopper4,2,
+,,,,,5,shopper3,4,
+7,Pulsera de Madera con Cadena de Plata,"Pulseras, Madera, Plata",20,,1,mcamilamorales,3,Buena calidad. No me gusta la combinación de los materiales.
+,,,,,3,auramariaarias,4,Meh.
+,,,,,4,shopper1,4,Bonito.
+,,,,,5,shopper2,4,
+,,,,,6,shopper3,2,
+,,,,,7,shopper4,4,
+8,Pulsera de Madera con Cuero,"Pulseras, Madera, Cuero",18,,2,auramariaarias,4.5,"Muy hermoso, me gusta que se ve rustico pero estilizado. Podrían buscar un tipo de madera más linda para que se le vea más calidad."
+,,,,,3,shopper1,5,Super bonito!
+,,,,,4,shopper2,5,
+,,,,,4,shopper3,4,
+9,Llavero de Acrilico con Cadena de Acero,"Llaveros, Acrílico, Acero",16,,1,santiagomondram,5,Brutal!
+,,,,,2,auramariaarias,5,A mi novio le gustó mucho! Gracias!
+,,,,,3,shopper1,4,
+,,,,,4,shopper2,4,
+,,,,,5,shopper3,4,
+10,Llavero de Madera con Cadena de Acero,"Llaveros, Madera, Acero",14,,1,auramariaarias,4,Nice!
+,,,,,3,mcamilamorales,5,Genial!
+,,,,,4,shopper4,4.5,
+,,,,,5,shopper3,4,
